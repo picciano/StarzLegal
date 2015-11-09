@@ -2,7 +2,7 @@
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-This is the legal framework for the Starz tvOS app. It iwll contain FAQ, terms and conditions, privacy policy, and account management.
+This is the legal framework for the Starz tvOS app. It will contain FAQ, terms and conditions, privacy policy, and account management.
 
 [Carthage](https://github.com/picciano/StarzLegal) is the recommended way to install StarzLegal. Add the following to your cart file:
 
