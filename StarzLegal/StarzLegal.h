@@ -14,6 +14,5 @@ FOUNDATION_EXPORT double StarzLegalVersionNumber;
 //! Project version string for StarzLegal.
 FOUNDATION_EXPORT const unsigned char StarzLegalVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <StarzLegal/PublicHeader.h>
 
 

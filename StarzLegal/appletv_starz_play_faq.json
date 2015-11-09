@@ -1,0 +1,647 @@
+[
+    {
+        "_id": "5530172f8a9ac63e3bdd0c54",
+        "name": "General Information",
+        "__v": 0,
+        "position": 0,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c75",
+                "answer": "STARZ Play is the next big thing in entertainment on the go. With STARZ Play, you can watch our big original series and hit movies wherever and whenever you want. Plus, STARZ Play has hundreds of top movie titles available instantly. From a desktop computer to a smart phone or tablet, STARZ Play puts great entertainment right at your fingertips.",
+                "question": "What exactly is STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c88",
+                    "5530172f8a9ac63e3bdd0c6f",
+                    "5530172f8a9ac63e3bdd0c5f",
+                    "5530172f8a9ac63e3bdd0c62",
+                    "5530172f8a9ac63e3bdd0c76",
+                    "5530172f8a9ac63e3bdd0c60",
+                    "5530172f8a9ac63e3bdd0c61",
+                    "5530172f8a9ac63e3bdd0c78",
+                    "5530172f8a9ac63e3bdd0c90"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c54",
+                    "name": "General Information",
+                    "__v": 0,
+                    "position": 0
+                },
+                "order": 0
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c76",
+                "answer": "First, we would like to say thanks for considering STARZ. With the big original series and hit movies you want, STARZ delivers great entertainment every day. And with STARZ Play, you can access that anytime, anywhere. To subscribe, you can contact your TV provider directly and add it to your account. STARZ Play may not be available with your provider.",
+                "question": "How do I get STARZ?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c88",
+                    "5530172f8a9ac63e3bdd0c75",
+                    "5530172f8a9ac63e3bdd0c5f",
+                    "5530172f8a9ac63e3bdd0c62",
+                    "5530172f8a9ac63e3bdd0c60",
+                    "5530172f8a9ac63e3bdd0c61",
+                    "5530172f8a9ac63e3bdd0c78",
+                    "5530172f8a9ac63e3bdd0c90"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c54",
+                    "name": "General Information",
+                    "__v": 0,
+                    "position": 0
+                },
+                "order": 3
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c77",
+                "answer": "No, there is nothing more to pay. STARZ Play is a free service offered to all Starz subscribers. As long as you subscribe to Starz through an approved TV provider you will always have free access to STARZ Play. And the app is free as well.",
+                "question": "Do I have to pay an additional fee to use STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c88",
+                    "5530172f8a9ac63e3bdd0c6f",
+                    "5530172f8a9ac63e3bdd0c5f",
+                    "5530172f8a9ac63e3bdd0c60",
+                    "5530172f8a9ac63e3bdd0c61",
+                    "5530172f8a9ac63e3bdd0c7c"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c54",
+                    "name": "General Information",
+                    "__v": 0,
+                    "position": 0
+                },
+                "order": 6
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c78",
+                "answer": "We are working closely with all TV providers across the nation to bring STARZ Play to every STARZ subscriber. It won't be long before the big originals and movies on STARZ Play are available to you; so check back regularly or call your provider and tell them you want STARZ Play.",
+                "question": "I don't see my TV Provider listed. When will they offer STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c76",
+                    "5530172f8a9ac63e3bdd0c60",
+                    "5530172f8a9ac63e3bdd0c61",
+                    "5530172f8a9ac63e3bdd0c63",
+                    "5530172f8a9ac63e3bdd0c79",
+                    "5530172f8a9ac63e3bdd0c5c"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c54",
+                    "name": "General Information",
+                    "__v": 0,
+                    "position": 0
+                },
+                "order": 7
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c7b",
+                "answer": "It's instantaneous! As soon as you choose a title and hit play, the title will stream via your Apple TV! However, there is no download feature, so you cannot choose to download a title to watch later. You must be connected to the Internet to watch.",
+                "question": "How quickly can I start watching a STARZ Play title?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c7d",
+                    "5530172f8a9ac63e3bdd0c7e",
+                    "5530172f8a9ac63e3bdd0c81"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c54",
+                    "name": "General Information",
+                    "__v": 0,
+                    "position": 0
+                },
+                "order": 11
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c7c",
+                "answer": "There is no option to pay-per-view. You can only gain access to STARZ Play by having a Starz subscription through an approved TV provider.",
+                "question": "How do I purchase STARZ Play shows and movies on a pay-per-view basis?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c70",
+                    "5530172f8a9ac63e3bdd0c77"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c54",
+                    "name": "General Information",
+                    "__v": 0,
+                    "position": 0
+                },
+                "order": 13
+            }
+        ]
+    },
+    {
+        "_id": "5530172f8a9ac63e3bdd0c5a",
+        "name": "Supported Devices",
+        "__v": 0,
+        "position": 1,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c5c",
+                "answer": "Excellent question! STARZ Play is offered on a variety of devices and platforms. Currently we support Apple TV.",
+                "question": "What devices can I watch STARZ Play on?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c71",
+                    "5530172f8a9ac63e3bdd0c6f",
+                    "5530172f8a9ac63e3bdd0c62"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c5a",
+                    "name": "Supported Devices",
+                    "__v": 0,
+                    "position": 1
+                },
+                "order": 0
+            }
+        ]
+    },
+    {
+        "_id": "5530172f8a9ac63e3bdd0c53",
+        "name": "Features",
+        "__v": 0,
+        "position": 2,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c64",
+                "answer": "Yes, they can. Right now, you can stream content on up to FOUR devices simultaneously. For instance, you can be watching a STARZ original series in one room, while the kids watch a great family movie in another, and another member of the family watches a big hit movie or original on their tablet. Alternatively, you could watch four movies yourself all at once, but we really don’t recommend that!",
+                "question": "Can STARZ Play originals and movies be viewed on multiple devices at one time?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c71",
+                    "5530172f8a9ac63e3bdd0c65",
+                    "5530172f8a9ac63e3bdd0c5c"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c53",
+                    "name": "Features",
+                    "__v": 0,
+                    "position": 2
+                },
+                "order": 0
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c65",
+                "answer": "Yes! STARZ Play gives you maximum user control by letting you play, pause, and pick up on any other device. Start it on the Apple TV, pick it up on the phone, finish it on a tablet: you decide how to watch.",
+                "question": "Is it possible to pause something on one device and resume it on another?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c71",
+                    "5530172f8a9ac63e3bdd0c81",
+                    "5530172f8a9ac63e3bdd0c5c"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c53",
+                    "name": "Features",
+                    "__v": 0,
+                    "position": 2
+                },
+                "order": 3
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c66",
+                "answer": "Yes, STARZ Play offers most titles in HD. Minimum Bandwidth: 2.5 Mbps, but we recommend 6 Mbps for the best experience.",
+                "question": "Can STARZ Play stream in HD?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c88",
+                    "5530172f8a9ac63e3bdd0c89",
+                    "5530172f8a9ac63e3bdd0c8b",
+                    "5530172f8a9ac63e3bdd0c8c"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c53",
+                    "name": "Features",
+                    "__v": 0,
+                    "position": 2
+                },
+                "order": 4
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c67",
+                "answer": "Closed captioning is supported on most titles and can be turned on during playback mode.  For any additional inquiries regarding closed captioning, please contact:  Todd T. Hoy  Vice President, Business and Legal Affairs – Distribution 8900 Liberty Circle Englewood, CO 80112 P: 720-852-6266  F: 720-852-9811 starzcc@starz.com",
+                "question": "Is closed captioning available?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c6b",
+                    "5530172f8a9ac63e3bdd0c7a",
+                    "5530172f8a9ac63e3bdd0c68"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c53",
+                    "name": "Features",
+                    "__v": 0,
+                    "position": 2
+                },
+                "order": 5
+            }
+        ]
+    },
+    {
+        "_id": "5530172f8a9ac63e3bdd0c59",
+        "name": "Programming",
+        "__v": 0,
+        "position": 4,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c90",
+                "answer": "The same big originals and movies that you can only see on STARZ are available on STARZ Play. That means quality action and drama from STARZ original series and big movie titles that represent the best Hollywood has to offer. If it’s on STARZ, it’s on STARZ Play.",
+                "question": "What originals and movies can I see on STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c75",
+                    "5530172f8a9ac63e3bdd0c63",
+                    "5530172f8a9ac63e3bdd0c91",
+                    "5530172f8a9ac63e3bdd0c92"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c59",
+                    "name": "Programming",
+                    "__v": 0,
+                    "position": 4
+                },
+                "order": 0
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c91",
+                "answer": "Ah, the agony of choice. With so many titles available on STARZ Play, we wanted to make it as easy as possible for you to find just what you're looking for. In the top right corner, you will see a search box, which is ideal if you have a specific title in mind. If you're not quite sure what title you want to see, you can browse by genre, rating, year, and even sort by alphabetical order.",
+                "question": "There's so much to choose from. How do I find titles on STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c63",
+                    "5530172f8a9ac63e3bdd0c68"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c59",
+                    "name": "Programming",
+                    "__v": 0,
+                    "position": 4
+                },
+                "order": 3
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c92",
+                "answer": "New episodes from the current season of any STARZ Original are available on STARZ Play the day after they air on STARZ. If you need to catch up on your favorite shows, we’ll often have past seasons up as well.",
+                "question": "When do new episodes from STARZ Originals appear on STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c63",
+                    "5530172f8a9ac63e3bdd0c90",
+                    "5530172f8a9ac63e3bdd0c91"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c59",
+                    "name": "Programming",
+                    "__v": 0,
+                    "position": 4
+                },
+                "order": 4
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c93",
+                "answer": "STARZ Play has titles that run the gamut, from family-friendly movies rated G, to films for adults rated NC17. There are also TV ratings like TVY (particularly suited to small children) and TVMA (unsuitable for audiences under 17). Every title on STARZ Play also comes with a detailed description page, and you'll find the rating of the show on there. To learn more about ratings in general visit http://www.mpaa.org/film-ratings for movies and http://www.tvguidelines.org for television.",
+                "question": "I want to know more about the ratings of STARZ Play titles. Where do I look?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c6a"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c59",
+                    "name": "Programming",
+                    "__v": 0,
+                    "position": 4
+                },
+                "order": 6
+            }
+        ]
+    },
+    {
+        "_id": "5530172f8a9ac63e3bdd0c50",
+        "name": "Access",
+        "__v": 0,
+        "position": 5,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c5f",
+                "answer": "Well, the first thing you will need is a subscription to Starz, which you can get through an approved television provider. Once you have that, the hard part is over! STARZ Play is free to subscribers. You will just need a compatible Apple TV and a high speed internet connection to access all of our great movies and shows.",
+                "question": "So, how do I get STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c6f",
+                    "5530172f8a9ac63e3bdd0c60",
+                    "5530172f8a9ac63e3bdd0c61",
+                    "5530172f8a9ac63e3bdd0c79",
+                    "5530172f8a9ac63e3bdd0c5c",
+                    "5530172f8a9ac63e3bdd0c88"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c50",
+                    "name": "Access",
+                    "__v": 0,
+                    "position": 5
+                },
+                "order": 0
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c60",
+                "answer": "In a nutshell, nope. STARZ Play is a free service we provide to our Starz subscribers, so you must sign up through an approved television provider.",
+                "question": "Can I get STARZ Play without subscribing to Starz?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c6f",
+                    "5530172f8a9ac63e3bdd0c5f",
+                    "5530172f8a9ac63e3bdd0c61"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c50",
+                    "name": "Access",
+                    "__v": 0,
+                    "position": 5
+                },
+                "order": 1
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c61",
+                "answer": "You should be able to access it right away, but as STARZ Play is still waiting to be launched in some areas, you may not have access just yet. Check with your cable or satellite provider to see if STARZ Play is supported.",
+                "question": "I already have Starz. Does that mean I can access STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c60",
+                    "5530172f8a9ac63e3bdd0c63",
+                    "5530172f8a9ac63e3bdd0c70",
+                    "5530172f8a9ac63e3bdd0c79"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c50",
+                    "name": "Access",
+                    "__v": 0,
+                    "position": 5
+                },
+                "order": 2
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c62",
+                "answer": "Good question. The easiest way to find out is to check with your cable or satellite provider. You can also look at the login menu to see if your provider is listed. If you do not see your provider, please know that we are working closely with all TV providers to bring you the captivating original series and hit movies available on STARZ Play.",
+                "question": "How do I know if my TV provider offers STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c75",
+                    "5530172f8a9ac63e3bdd0c5d",
+                    "5530172f8a9ac63e3bdd0c5f",
+                    "5530172f8a9ac63e3bdd0c60",
+                    "5530172f8a9ac63e3bdd0c78"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c50",
+                    "name": "Access",
+                    "__v": 0,
+                    "position": 5
+                },
+                "order": 3
+            }
+        ]
+    },
+    {
+        "_id": "5530172f8a9ac63e3bdd0c55",
+        "name": "Login and Account Settings",
+        "__v": 0,
+        "position": 6,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c69",
+                "answer": "Don't sweat it. Your STARZ Play service is authenticated through your television provider. Just follow the username/password reset steps on the login screen for your television provider to regain access.",
+                "question": "Well, this is awkward. I forgot my username and/or password!",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c6b",
+                    "5530172f8a9ac63e3bdd0c6a"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c55",
+                    "name": "Login and Account Settings",
+                    "__v": 0,
+                    "position": 6
+                },
+                "order": 0
+            },
+            {
+                "questionId": "55b7f0abc34e65ea18a61e62",
+                "answer": "Absolutely! When you first register for STARZ Play, you will be prompted to set your parental controls for which content to block and which to allow, if you choose. You can also access these settings at any time from a computer or laptop by going to My Account, and then navigating to Parental Controls. Just create an easy to remember PIN and you are all set!",
+                "question": "Is there a way to set Parental Controls on STARZ Play to block certain content?",
+                "relatedQuestions": [],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c55",
+                    "name": "Login and Account Settings",
+                    "__v": 0,
+                    "position": 6
+                },
+                "order": 1
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c6b",
+                "answer": "With Starz, you have an entertainment provider who values you as a customer, and understands the importance of your privacy. To view the privacy policy go to My Account and click Privacy Policy for more information.",
+                "question": "Where does Starz stand on sharing my account information?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c8d",
+                    "5530172f8a9ac63e3bdd0c74"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c55",
+                    "name": "Login and Account Settings",
+                    "__v": 0,
+                    "position": 6
+                },
+                "order": 2
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c6c",
+                "answer": "The first thing to do is check and make sure you have the correct username and password. It's the same username and password that you use to log in to your television provider's site.",
+                "question": "I'm having trouble logging in - help!",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c69",
+                    "5530172f8a9ac63e3bdd0c6e",
+                    "5530172f8a9ac63e3bdd0c6d"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c55",
+                    "name": "Login and Account Settings",
+                    "__v": 0,
+                    "position": 6
+                },
+                "order": 3
+            },
+            {
+                "questionId": "55a3f85ce726a784542fe9dc",
+                "answer": "The first thing to do is check and make sure you have the correct username and password. It’s the same username and password that you use to log in to your television provider’s site. Next make sure the device you are using to access the activate site is set to accept 3rd party cookies. If neither of these work then try from a different computer or device.",
+                "question": "I am having trouble activating my device",
+                "relatedQuestions": [],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c55",
+                    "name": "Login and Account Settings",
+                    "__v": 0,
+                    "position": 6
+                },
+                "order": 4
+            }
+        ]
+    },
+    {
+        "_id": "5530172f8a9ac63e3bdd0c58",
+        "name": "Playback",
+        "__v": 0,
+        "position": 7,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c7d",
+                "answer": "\"Choppy\" or stuttering video playback is often caused by a slow internet connection. The \"buffering\" that takes place is unable to keep up with the speed of the video playback, and as a result, the video has to keep stopping to catch up. STARZ Play can usually work around this by detecting your bandwidth and adjusting the visual quality accordingly, or by increasing the buffer. Please note that a minimum bandwidth of 2.5 Mbps is required but we recommend 6 Mbps for the best viewing experience!",
+                "question": "The content isn't playing correctly, or the video playback is choppy.",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c7e",
+                    "5530172f8a9ac63e3bdd0c88",
+                    "5530172f8a9ac63e3bdd0c8b",
+                    "5530172f8a9ac63e3bdd0c8d"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c58",
+                    "name": "Playback",
+                    "__v": 0,
+                    "position": 7
+                },
+                "order": 2
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c81",
+                "answer": "There's actually nothing wrong at all. It's simply that the chosen title has already been played and stopped, and STARZ Play is resuming from where you left off. If you want to start from the beginning, you can easily start the movie or show again, or rewind to the place from which you want to begin.",
+                "question": "I clicked \"play\" on a title but it didn't start at the beginning. What's wrong?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c7d",
+                    "5530172f8a9ac63e3bdd0c7e",
+                    "5530172f8a9ac63e3bdd0c88",
+                    "5530172f8a9ac63e3bdd0c64",
+                    "5530172f8a9ac63e3bdd0c65"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c58",
+                    "name": "Playback",
+                    "__v": 0,
+                    "position": 7
+                },
+                "order": 5
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c82",
+                "answer": "First, we guarantee the titles haven't gone anywhere. The issue here is one of bandwidth. If there is limited bandwidth, the system will have trouble loading our huge library of titles, which in turn causes the error. Run a test on your system to see if you are getting the bandwidth you should be getting, and if you're not, contact your Internet Service Provider (ISP).",
+                "question": "I don't see any of the titles. Why isn't the catalog loading?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c5c"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c58",
+                    "name": "Playback",
+                    "__v": 0,
+                    "position": 7
+                },
+                "order": 6
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c84",
+                "answer": "Uh oh, stream overload. There are several reasons this could happen. The most common answer is that you are trying to stream to more than four devices at one time. However, if you know that is not the case, try logging out of your current device, clearing your cache, log back in, and try again.",
+                "question": "I'm getting an error message stating I have exceeded the maximum number of video streams. Why?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c7d",
+                    "5530172f8a9ac63e3bdd0c88",
+                    "5530172f8a9ac63e3bdd0c71",
+                    "5530172f8a9ac63e3bdd0c64",
+                    "5530172f8a9ac63e3bdd0c83"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c58",
+                    "name": "Playback",
+                    "__v": 0,
+                    "position": 7
+                },
+                "order": 7
+            }
+        ]
+    },
+    {
+        "_id": "5530172f8a9ac63e3bdd0c5b",
+        "name": "Technical Issues",
+        "__v": 0,
+        "position": 9,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c88",
+                "answer": "A compatible Apple TV\nMinimum Bandwidth: 2.5 Mbps, but we recommend 6 Mbps for the best experience.",
+                "question": "What are the minimum system requirements for STARZ Play?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c7d",
+                    "5530172f8a9ac63e3bdd0c7e",
+                    "5530172f8a9ac63e3bdd0c66",
+                    "5530172f8a9ac63e3bdd0c8b",
+                    "5530172f8a9ac63e3bdd0c89"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c5b",
+                    "name": "Technical Issues",
+                    "__v": 0,
+                    "position": 9
+                },
+                "order": 1
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c8b",
+                "answer": "Yes, you will need access to some form of high-speed data connection, whether it's a wired Internet connection, WiFi or 4G connection. The massive amount of data contained in a movie or show will simply not stream on slow Internet connections.\nMinimum Bandwidth: 2.5 Mbps, but we recommend 6 Mbps for the best experience.",
+                "question": "Does STARZ Play require a high-speed internet connection?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c7d",
+                    "5530172f8a9ac63e3bdd0c7e",
+                    "5530172f8a9ac63e3bdd0c88",
+                    "5530172f8a9ac63e3bdd0c89"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c5b",
+                    "name": "Technical Issues",
+                    "__v": 0,
+                    "position": 9
+                },
+                "order": 3
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c8f",
+                "answer": "STARZ Play has an extensive list of FAQs, which we invite you to browse. They should provide the answers. If you didn't find an answer in the FAQs, you should contact your television provider.  If you would like to submit a question, provide feedback, or are still having issues, please email us at help@starzplay.com",
+                "question": "I need to contact STARZ Play customer support.",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c8e",
+                    "5530172f8a9ac63e3bdd0c69"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c5b",
+                    "name": "Technical Issues",
+                    "__v": 0,
+                    "position": 9
+                },
+                "order": 10
+            }
+        ]
+    },
+    {
+        "_id": "5530172f8a9ac63e3bdd0c57",
+        "name": "Newsletters",
+        "__v": 0,
+        "position": 10,
+        "questions": [
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c73",
+                "answer": "There is a STARZ Play newsletter, dedicated to bringing you the latest news about STARZ Play events, new titles, movies, originals and more. You will get the chance to register for the STARZ Play newsletter when you sign up for the service, or you can go to My Account to register for STARZ Play newsletters anytime you want.",
+                "question": "Is there a STARZ Play newsletter, and if so, how do I sign up?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c74"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c57",
+                    "name": "Newsletters",
+                    "__v": 0,
+                    "position": 10
+                },
+                "order": 0
+            },
+            {
+                "questionId": "5530172f8a9ac63e3bdd0c74",
+                "answer": "Of course. We don't ever want to send something your way that you're no longer interested in. Simply go to My Account and click on the Settings option. From there, you can access your newsletter preferences and unsubscribe.",
+                "question": "Can I unsubscribe from the STARZ Play newsletters?",
+                "relatedQuestions": [
+                    "5530172f8a9ac63e3bdd0c73"
+                ],
+                "category": {
+                    "_id": "5530172f8a9ac63e3bdd0c57",
+                    "name": "Newsletters",
+                    "__v": 0,
+                    "position": 10
+                },
+                "order": 1
+            }
+        ]
+    }
+]

@@ -10,6 +10,8 @@
 		AF88C4C61BF11BCB006BDD67 /* StarzLegal.h in Headers */ = {isa = PBXBuildFile; fileRef = AF88C4C51BF11BCB006BDD67 /* StarzLegal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF88C4CD1BF11BCB006BDD67 /* StarzLegal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF88C4C21BF11BCB006BDD67 /* StarzLegal.framework */; };
 		AF88C4D21BF11BCB006BDD67 /* StarzLegalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88C4D11BF11BCB006BDD67 /* StarzLegalTests.swift */; };
+		AF88C4DD1BF11BF7006BDD67 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88C4DC1BF11BF7006BDD67 /* FAQ.swift */; };
+		AF88C4DF1BF11C5A006BDD67 /* appletv_starz_play_faq.json in Resources */ = {isa = PBXBuildFile; fileRef = AF88C4DE1BF11C5A006BDD67 /* appletv_starz_play_faq.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		AF88C4CC1BF11BCB006BDD67 /* StarzLegalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarzLegalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF88C4D11BF11BCB006BDD67 /* StarzLegalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarzLegalTests.swift; sourceTree = "<group>"; };
 		AF88C4D31BF11BCB006BDD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF88C4DC1BF11BF7006BDD67 /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		AF88C4DE1BF11C5A006BDD67 /* appletv_starz_play_faq.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appletv_starz_play_faq.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				AF88C4C51BF11BCB006BDD67 /* StarzLegal.h */,
+				AF88C4DC1BF11BF7006BDD67 /* FAQ.swift */,
 				AF88C4C71BF11BCB006BDD67 /* Info.plist */,
+				AF88C4DE1BF11C5A006BDD67 /* appletv_starz_play_faq.json */,
 			);
 			path = StarzLegal;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF88C4DF1BF11C5A006BDD67 /* appletv_starz_play_faq.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF88C4DD1BF11BF7006BDD67 /* FAQ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 		AF88C4D71BF11BCB006BDD67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -316,12 +325,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.starz.StarzLegal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AF88C4D81BF11BCB006BDD67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
