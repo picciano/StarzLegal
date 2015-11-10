@@ -39,5 +39,6 @@ FAQ.sharedInstance.loadFAQs { (result, error) -> Void in
 
 * Parse Categories and add to Question object
 * Parse Related Questions and add to Question object
+* Add NSNotification when FAQ is loaded
 
 Enjoy.
