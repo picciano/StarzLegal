@@ -76,6 +76,7 @@
 		AF1798E21BF25E2B0057EC92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */,
 				AF1798E01BF25E280057EC92 /* Alamofire.framework */,
 			);
 			name = Frameworks;
@@ -84,7 +85,6 @@
 		AF88C4B81BF11BCB006BDD67 = {
 			isa = PBXGroup;
 			children = (
-				AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */,
 				AF88C4C41BF11BCB006BDD67 /* StarzLegal */,
 				AF1798E21BF25E2B0057EC92 /* Frameworks */,
 				AF88C4D01BF11BCB006BDD67 /* StarzLegalTests */,
