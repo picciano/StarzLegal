@@ -18,8 +18,15 @@ For manual installation. I recommend adding the project as a subproject to your 
 import FAQ
 
 FAQ.sharedInstance.loadFAQs { (result, error) -> Void in
-  if let faqs = result as! NSArray? {
-    debugPrint(faqs)
+  if let result = result {
+      for section in result {
+          debugPrint("Section name: \(section.name!)")
+          
+          for question in section.questions! {
+              debugPrint("Question: \(question.question!)")
+              debugPrint("Answer: \(question.answer!)")
+          }
+      }
   }
 
   if (error != nil) {
