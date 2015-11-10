@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1798E11BF25E280057EC92 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1798E01BF25E280057EC92 /* Alamofire.framework */; };
+		AF1798E61BF25ED20057EC92 /* Alamofire.framework.dSYM in Copy Carthage Debug Symbols */ = {isa = PBXBuildFile; fileRef = AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */; };
 		AF88C4C61BF11BCB006BDD67 /* StarzLegal.h in Headers */ = {isa = PBXBuildFile; fileRef = AF88C4C51BF11BCB006BDD67 /* StarzLegal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF88C4CD1BF11BCB006BDD67 /* StarzLegal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF88C4C21BF11BCB006BDD67 /* StarzLegal.framework */; };
 		AF88C4D21BF11BCB006BDD67 /* StarzLegalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88C4D11BF11BCB006BDD67 /* StarzLegalTests.swift */; };
@@ -24,7 +26,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AF1798E41BF25EBC0057EC92 /* Copy Carthage Debug Symbols */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				AF1798E61BF25ED20057EC92 /* Alamofire.framework.dSYM in Copy Carthage Debug Symbols */,
+			);
+			name = "Copy Carthage Debug Symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AF1798E01BF25E280057EC92 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
+		AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/tvOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
 		AF88C4C21BF11BCB006BDD67 /* StarzLegal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarzLegal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF88C4C51BF11BCB006BDD67 /* StarzLegal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarzLegal.h; sourceTree = "<group>"; };
 		AF88C4C71BF11BCB006BDD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1798E11BF25E280057EC92 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,10 +73,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF1798E21BF25E2B0057EC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF1798E01BF25E280057EC92 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF88C4B81BF11BCB006BDD67 = {
 			isa = PBXGroup;
 			children = (
+				AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */,
 				AF88C4C41BF11BCB006BDD67 /* StarzLegal */,
+				AF1798E21BF25E2B0057EC92 /* Frameworks */,
 				AF88C4D01BF11BCB006BDD67 /* StarzLegalTests */,
 				AF88C4C31BF11BCB006BDD67 /* Products */,
 			);
@@ -114,6 +143,8 @@
 				AF88C4BE1BF11BCB006BDD67 /* Frameworks */,
 				AF88C4BF1BF11BCB006BDD67 /* Headers */,
 				AF88C4C01BF11BCB006BDD67 /* Resources */,
+				AF1798E31BF25E450057EC92 /* Embed Carthage Frameworks */,
+				AF1798E41BF25EBC0057EC92 /* Copy Carthage Debug Symbols */,
 			);
 			buildRules = (
 			);
@@ -195,6 +226,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF1798E31BF25E450057EC92 /* Embed Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
+			);
+			name = "Embed Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF88C4BD1BF11BCB006BDD67 /* Sources */ = {
@@ -319,6 +368,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = StarzLegal/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -337,6 +390,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = StarzLegal/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -385,6 +442,7 @@
 				AF88C4D81BF11BCB006BDD67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF88C4D91BF11BCB006BDD67 /* Build configuration list for PBXNativeTarget "StarzLegalTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +451,7 @@
 				AF88C4DB1BF11BCB006BDD67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
