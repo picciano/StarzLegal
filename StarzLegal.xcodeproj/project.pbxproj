@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		AF1798E11BF25E280057EC92 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1798E01BF25E280057EC92 /* Alamofire.framework */; };
 		AF1798E61BF25ED20057EC92 /* Alamofire.framework.dSYM in Copy Carthage Debug Symbols */ = {isa = PBXBuildFile; fileRef = AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */; };
+		AF1798EC1BF26B190057EC92 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1798EB1BF26B190057EC92 /* Section.swift */; };
+		AF1798EE1BF26B230057EC92 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1798ED1BF26B230057EC92 /* Question.swift */; };
+		AF1798F01BF26B2E0057EC92 /* QuestionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1798EF1BF26B2E0057EC92 /* QuestionCategory.swift */; };
 		AF88C4C61BF11BCB006BDD67 /* StarzLegal.h in Headers */ = {isa = PBXBuildFile; fileRef = AF88C4C51BF11BCB006BDD67 /* StarzLegal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF88C4CD1BF11BCB006BDD67 /* StarzLegal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF88C4C21BF11BCB006BDD67 /* StarzLegal.framework */; };
 		AF88C4D21BF11BCB006BDD67 /* StarzLegalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88C4D11BF11BCB006BDD67 /* StarzLegalTests.swift */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		AF1798E01BF25E280057EC92 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
 		AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/tvOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		AF1798EB1BF26B190057EC92 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		AF1798ED1BF26B230057EC92 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		AF1798EF1BF26B2E0057EC92 /* QuestionCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCategory.swift; sourceTree = "<group>"; };
 		AF88C4C21BF11BCB006BDD67 /* StarzLegal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarzLegal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF88C4C51BF11BCB006BDD67 /* StarzLegal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarzLegal.h; sourceTree = "<group>"; };
 		AF88C4C71BF11BCB006BDD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +88,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF1798EA1BF26AED0057EC92 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				AF88C4DC1BF11BF7006BDD67 /* FAQ.swift */,
+				AF1798EB1BF26B190057EC92 /* Section.swift */,
+				AF1798ED1BF26B230057EC92 /* Question.swift */,
+				AF1798EF1BF26B2E0057EC92 /* QuestionCategory.swift */,
+			);
+			name = FAQ;
+			sourceTree = "<group>";
+		};
 		AF88C4B81BF11BCB006BDD67 = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				AF88C4C51BF11BCB006BDD67 /* StarzLegal.h */,
-				AF88C4DC1BF11BF7006BDD67 /* FAQ.swift */,
+				AF1798EA1BF26AED0057EC92 /* FAQ */,
 				AF88C4C71BF11BCB006BDD67 /* Info.plist */,
 				AF88C4DE1BF11C5A006BDD67 /* appletv_starz_play_faq.json */,
 			);
@@ -250,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1798EE1BF26B230057EC92 /* Question.swift in Sources */,
 				AF88C4DD1BF11BF7006BDD67 /* FAQ.swift in Sources */,
+				AF1798EC1BF26B190057EC92 /* Section.swift in Sources */,
+				AF1798F01BF26B2E0057EC92 /* QuestionCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

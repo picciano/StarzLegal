@@ -13,12 +13,12 @@ public class FAQ {
     
     public static let sharedInstance = FAQ()
     
-    public var faqs:AnyObject?
+    public var faqs:Array<Section>?
     
     // Not public, this class is a singleton
     init () {}
     
-    public func loadFAQs(completion:(result: AnyObject?, error: NSError?) -> Void) {
+    public func loadFAQs(completion:(result: Array<Section>?, error: NSError?) -> Void) {
         if let faqs = faqs {
             completion(result: faqs, error: nil)
             return
@@ -30,7 +30,13 @@ public class FAQ {
                 switch response.result {
                 case .Success:
                     debugPrint("Validation Successful")
-                    self.faqs = response.result.value
+                    self.faqs = [Section]()
+                    
+                    if let items = response.result.value as! NSArray? {
+                        for dictionary in items {
+                            self.faqs?.append(Section(dictionary: dictionary as? NSDictionary))
+                        }
+                    }
                     completion(result: self.faqs, error: nil)
                 case .Failure(let error):
                     debugPrint(error)
