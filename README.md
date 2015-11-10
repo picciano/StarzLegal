@@ -17,7 +17,14 @@ For manual installation. I recommend adding the project as a subproject to your 
 ```swift
 import FAQ
 
-let faq = FAQ().getFAQ()
+FAQ.sharedInstance.loadFAQs { (result, error) -> Void in
+  if let faqs = result as! NSArray? {
+    debugPrint(faqs)
+  }
+
+  if (error != nil) {
+    debugPrint(error)
+  }
 ```
 
 Enjoy.
