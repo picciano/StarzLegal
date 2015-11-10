@@ -35,4 +35,9 @@ FAQ.sharedInstance.loadFAQs { (result, error) -> Void in
 }
 ```
 
+## To Do
+
+* Parse Categories and add to Question object
+* Parse Related Questions and add to Question object
+
 Enjoy.
