@@ -25,6 +25,7 @@ FAQ.sharedInstance.loadFAQs { (result, error) -> Void in
   if (error != nil) {
     debugPrint(error)
   }
+}
 ```
 
 Enjoy.
