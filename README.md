@@ -41,10 +41,4 @@ FAQ.sharedInstance.loadFAQs { (result, error) -> Void in
 NSNotificationCenter.defaultCenter().addObserver(self, selector: "faqsDidLoadHandler:", name: FAQsDidLoadNotification, object: nil)
 ```
 
-# To Do
-
-* Parse Categories and add to Question object
-* Parse Related Questions and add to Question object
-* Add NSNotification when FAQ is loaded
-
 Enjoy.
