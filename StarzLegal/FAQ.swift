@@ -39,6 +39,9 @@ public class FAQ {
                             self.faqs?.append(Section(dictionary: dictionary as? NSDictionary))
                         }
                     }
+                    
+                    self.assignRelatedQuestions()
+                    
                     completion(result: self.faqs, error: nil)
                     NSNotificationCenter.defaultCenter().postNotificationName(FAQsDidLoadNotification, object: self)
                 case .Failure(let error):
@@ -46,5 +49,33 @@ public class FAQ {
                     completion(result: nil, error: error)
                 }
         }
+    }
+    
+    func assignRelatedQuestions() {
+        if let faqs = self.faqs {
+            for section in faqs {
+                for question in section.questions! {
+                    for relatedQuestionId in question.relatedQuestionIds! {
+                        if let relatedQuestion = self.question(relatedQuestionId) {
+                            question.relatedQuestions?.append(relatedQuestion)
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    func question(questionId: String) -> Question? {
+        if let faqs = self.faqs {
+            for section in faqs {
+                for question in section.questions! {
+                    if questionId == question.questionId {
+                        return question
+                    }
+                }
+            }
+        }
+        
+        return nil
     }
 }

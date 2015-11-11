@@ -25,6 +25,7 @@ class StarzLegalTests: XCTestCase {
                     for question in section.questions! {
                         debugPrint("Question: \(question.question!)")
                         debugPrint("Answer: \(question.answer!)")
+                        debugPrint("Number of related questions: \(question.relatedQuestions?.count)")
                     }
                 }
             }

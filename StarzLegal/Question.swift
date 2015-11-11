@@ -16,6 +16,8 @@ public class Question {
     public var category:QuestionCategory?
     public var order:Int?
     
+    var relatedQuestionIds:Array<String>?
+    
     public init(dictionary: NSDictionary?) {
         if let dictionary = dictionary {
             questionId = dictionary["questionId"] as! String?
@@ -24,6 +26,8 @@ public class Question {
             relatedQuestions = [Question]()
             category = QuestionCategory(dictionary: dictionary["category"] as? NSDictionary)
             order = dictionary["order"] as! Int?
+            
+            relatedQuestionIds = dictionary["relatedQuestions"] as! Array<String>?
         }
     }
 }
