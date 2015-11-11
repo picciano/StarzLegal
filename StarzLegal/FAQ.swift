@@ -9,6 +9,8 @@
 import Foundation
 import Alamofire
 
+public let FAQsDidLoadNotification = "FAQsDidLoadNotification"
+
 public class FAQ {
     
     public static let sharedInstance = FAQ()
@@ -38,6 +40,7 @@ public class FAQ {
                         }
                     }
                     completion(result: self.faqs, error: nil)
+                    NSNotificationCenter.defaultCenter().postNotificationName(FAQsDidLoadNotification, object: self)
                 case .Failure(let error):
                     debugPrint(error)
                     completion(result: nil, error: error)
