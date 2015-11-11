@@ -35,7 +35,13 @@ FAQ.sharedInstance.loadFAQs { (result, error) -> Void in
 }
 ```
 
-## To Do
+### Register for notifications (optional)
+
+```swift
+NSNotificationCenter.defaultCenter().addObserver(self, selector: "faqsDidLoadHandler:", name: FAQsDidLoadNotification, object: nil)
+```
+
+# To Do
 
 * Parse Categories and add to Question object
 * Parse Related Questions and add to Question object
