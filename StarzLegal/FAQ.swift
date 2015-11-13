@@ -27,7 +27,7 @@ public class FAQ {
             return
         }
         
-        Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/faq/firetv_starz_play_faq.json")
+        Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/faq/appletv_starz_play_faq.json")
             .validate()
             .responseJSON { response in
                 switch response.result {
