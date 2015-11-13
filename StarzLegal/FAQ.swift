@@ -10,6 +10,7 @@ import Foundation
 import Alamofire
 
 public let FAQsDidLoadNotification = "FAQsDidLoadNotification"
+public let FAQsDidFailToLoadNotification = "FAQsDidFailToLoadNotification"
 
 public class FAQ {
     
@@ -26,12 +27,11 @@ public class FAQ {
             return
         }
         
-        Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/faq/firetv_starz_play_faq.json")
+        Alamofire.request(.GET, "http://assets.starz.com/PLAY/starz/faq/appletv_starz_play_faq.json")
             .validate()
             .responseJSON { response in
                 switch response.result {
                 case .Success:
-                    debugPrint("Validation Successful")
                     self.faqs = [Section]()
                     
                     if let items = response.result.value as! NSArray? {
@@ -47,6 +47,7 @@ public class FAQ {
                 case .Failure(let error):
                     debugPrint(error)
                     completion(result: nil, error: error)
+                    NSNotificationCenter.defaultCenter().postNotificationName(FAQsDidFailToLoadNotification, object: self)
                 }
         }
     }

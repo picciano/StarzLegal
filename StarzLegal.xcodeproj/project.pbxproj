@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF10E1631BF62FB600750651 /* TermsOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10E1621BF62FB600750651 /* TermsOfService.swift */; };
+		AF10E1661BF6336C00750651 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10E1651BF6336C00750651 /* PrivacyPolicy.swift */; };
 		AF1798E11BF25E280057EC92 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1798E01BF25E280057EC92 /* Alamofire.framework */; };
 		AF1798E61BF25ED20057EC92 /* Alamofire.framework.dSYM in Copy Carthage Debug Symbols */ = {isa = PBXBuildFile; fileRef = AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */; };
 		AF1798EC1BF26B190057EC92 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1798EB1BF26B190057EC92 /* Section.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF10E1621BF62FB600750651 /* TermsOfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfService.swift; sourceTree = "<group>"; };
+		AF10E1651BF6336C00750651 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
 		AF1798E01BF25E280057EC92 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
 		AF1798E51BF25ED20057EC92 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/tvOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
 		AF1798EB1BF26B190057EC92 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
@@ -79,6 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF10E1641BF6322700750651 /* Terms of Service */ = {
+			isa = PBXGroup;
+			children = (
+				AF10E1621BF62FB600750651 /* TermsOfService.swift */,
+			);
+			name = "Terms of Service";
+			sourceTree = "<group>";
+		};
+		AF10E1671BF6337000750651 /* Privacy Policy */ = {
+			isa = PBXGroup;
+			children = (
+				AF10E1651BF6336C00750651 /* PrivacyPolicy.swift */,
+			);
+			name = "Privacy Policy";
+			sourceTree = "<group>";
+		};
 		AF1798E21BF25E2B0057EC92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				AF88C4C51BF11BCB006BDD67 /* StarzLegal.h */,
+				AF10E1671BF6337000750651 /* Privacy Policy */,
+				AF10E1641BF6322700750651 /* Terms of Service */,
 				AF1798EA1BF26AED0057EC92 /* FAQ */,
 				AF88C4C71BF11BCB006BDD67 /* Info.plist */,
 				AF88C4DE1BF11C5A006BDD67 /* appletv_starz_play_faq.json */,
@@ -267,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF10E1631BF62FB600750651 /* TermsOfService.swift in Sources */,
 				AF1798EE1BF26B230057EC92 /* Question.swift in Sources */,
 				AF88C4DD1BF11BF7006BDD67 /* FAQ.swift in Sources */,
 				AF1798EC1BF26B190057EC92 /* Section.swift in Sources */,
+				AF10E1661BF6336C00750651 /* PrivacyPolicy.swift in Sources */,
 				AF1798F01BF26B2E0057EC92 /* QuestionCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
