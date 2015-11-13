@@ -35,7 +35,7 @@ public class PrivacyPolicy {
             .responseString { response in
                 switch response.result {
                 case .Success:
-                    self.privacyPolicyText = "\(response.result.value)"
+                    self.privacyPolicyText = response.result.value
                     completion(result: self.privacyPolicyText, error: nil)
                     NSNotificationCenter.defaultCenter().postNotificationName(PrivacyPolicyTextDidLoadNotification, object: self)
                 case .Failure(let error):

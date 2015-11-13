@@ -35,7 +35,7 @@ public class TermsOfService {
             .responseString { response in
                 switch response.result {
                 case .Success:
-                    self.termsOfServiceText = "\(response.result.value)"
+                    self.termsOfServiceText = response.result.value
                     completion(result: self.termsOfServiceText, error: nil)
                     NSNotificationCenter.defaultCenter().postNotificationName(TermsOfServiceTextDidLoadNotification, object: self)
                 case .Failure(let error):
