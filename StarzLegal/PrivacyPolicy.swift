@@ -32,7 +32,7 @@ public class PrivacyPolicy {
         
         Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/legal/privacypolicy.txt")
             .validate()
-            .responseString { response in
+            .responseString(encoding: NSUTF8StringEncoding) { response in
                 switch response.result {
                 case .Success:
                     self.privacyPolicyText = response.result.value

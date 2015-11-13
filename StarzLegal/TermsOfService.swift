@@ -32,7 +32,7 @@ public class TermsOfService {
         
         Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/legal/termsofuse.txt")
             .validate()
-            .responseString { response in
+            .responseString(encoding: NSUTF8StringEncoding) { response in
                 switch response.result {
                 case .Success:
                     self.termsOfServiceText = response.result.value
