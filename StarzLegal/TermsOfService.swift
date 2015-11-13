@@ -30,7 +30,7 @@ public class TermsOfService {
             return
         }
         
-        Alamofire.request(.GET, "http://assets.starz.com/PLAY/starz/legal/termsofuse.txt")
+        Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/legal/termsofuse.txt")
             .validate()
             .responseString { response in
                 switch response.result {
@@ -52,7 +52,7 @@ public class TermsOfService {
             return
         }
         
-        Alamofire.request(.GET, "http://assets.starz.com/PLAY/starz/legal/new_terms.html")
+        Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/legal/new_terms.html")
             .validate()
             .responseString { response in
                 switch response.result {

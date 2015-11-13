@@ -30,7 +30,7 @@ public class PrivacyPolicy {
             return
         }
         
-        Alamofire.request(.GET, "http://assets.starz.com/PLAY/starz/legal/privacypolicy.txt")
+        Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/legal/privacypolicy.txt")
             .validate()
             .responseString { response in
                 switch response.result {
@@ -52,7 +52,7 @@ public class PrivacyPolicy {
             return
         }
         
-        Alamofire.request(.GET, "http://assets.starz.com/PLAY/starz/legal/new_privacy.html")
+        Alamofire.request(.GET, "https://assets.starz.com/PLAY/starz/legal/new_privacy.html")
             .validate()
             .responseString { response in
                 switch response.result {
