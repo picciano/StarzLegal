@@ -26,6 +26,8 @@ class StarzLegalTests: XCTestCase {
                         debugPrint("Question: \(question.question!)")
                         debugPrint("Answer: \(question.answer!)")
                         debugPrint("Number of related questions: \(question.relatedQuestions?.count)")
+                        
+                        XCTAssertTrue(question.answer?.rangeOfString("<span>") == nil, "Answer text contains <span> tag.")
                     }
                 }
             }
